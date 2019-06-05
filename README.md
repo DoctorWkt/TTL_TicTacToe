@@ -1,2 +1,2 @@
 # TTL_TicTacToe
-An implementation of Tic Tac Toe in TTL logic
+I quickly knocked this Logisim version of TTT upin preparation for designing a real circuit with TTL components. More soon...
