@@ -34,3 +34,11 @@ the layout is. I've got only 14 or so vias, so that's not too bad.
 Now I need to go back and review all the components. Example: the demux
 output is active low, so I probably need to wire its outputs to the K
 inputs of the J-K flip-flops.
+
+## Thu  6 Jun 11:47:03 AEST 2019
+
+Yes, I had to change to 74HC109 flip-flops as these have a K# input.
+Now I use this to register the active-low output from the demux,
+and thus I use the Q# output for the active-high registered board moves.
+I got rid of some resistors for the push-buttons, and I've laid out the
+PCB much more cleanly. Now running freeroute.

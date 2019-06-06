@@ -2,6 +2,8 @@ RCS
 *.rom
 *.vcd
 *.gtkw
+Schematic/Makefile
+Schematic/gui_defaults.par
 Schematic/rescue-backup
 Schematic/fp-info-cache
 Schematic/sym-lib-table
