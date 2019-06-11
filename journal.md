@@ -91,3 +91,22 @@ So I'll give up on this avenue and go back to the original 256Kx8 ROM.
 
 I've redone the Logisim circuit with the LEDs and buttons in a 3x3
 grid at the top-right of the circuit.
+
+## Wed 12 Jun 06:22:49 AEST 2019
+
+Yesterday I got to Jaycar and bought the flip-flops, mux, LEDs and
+resistors. Last night I started with one flip-flop and got it so it
+would record a user move, a board move and stop a user changing a
+board move. I've wired up three flip-flops so far:
+
+![](Figs/breadboard1.jpg)
+
+I can't find the small pushbuttons that I know I've got somewhere.
+What's concerning is that the pinout of the 74LS109 in Kicad doesn't
+match the actual chip. Example: left-hand J and K# are pins 2 and 3
+but Kicad has them as pins 1 and 9. I'll have to redo the pinout.
+I've also ordered two M27C2001 ROMs from utsource. Until they arrive
+I can either use one of the 28C256 32Kx8 EEPROMs that I have (only 15
+bits or addressing), or dig out my spare 27C322 2Mx16 EPROM which I
+used as the ALU in the CSCvon8. That takes 10 minutes to program
+though.
