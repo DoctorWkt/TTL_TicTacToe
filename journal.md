@@ -42,3 +42,52 @@ Now I use this to register the active-low output from the demux,
 and thus I use the Q# output for the active-high registered board moves.
 I got rid of some resistors for the push-buttons, and I've laid out the
 PCB much more cleanly. Now running freeroute.
+
+## Sun  9 Jun 20:39:17 AEST 2019
+
+I'm trying a design with a smaller ROM because it's easy to get a 32Kx8 ROM
+and not easy to get a 256Kx8. In this design, only the human moves go into
+the ROM not the board's moves. Instead, there is a 4-bit sequence counter.
+Each time the human moves, the sequence counter increments.
+
+The idea is that, after each human move, there is one ideal board move.
+So we really only need to know the current sequence number of the moves.
+When we get the next human move, the set of moves and the sequence number
+should determine the current state, and so we can output the best board
+move and increment the sequence counter.
+
+I was worried that I would have some metastability with the counter
+and the ROM inputs/outputs, but in Logisim it seems OK. However, I'm
+not generating the ROM output correctly. The circuit starts playing OK
+but then goes off the rails.
+
+It's likely that we are getting to the same state of human moves
+(from several human sequences), and along the way we have chosen
+different "best" board moves. And because there are different
+board moves along the various paths to the current state, we are
+not generating the best next move. So I will have to revisit the
+ROM generation code. There is also the worry that this approach
+has a gaping logical hole in it which I haven't discovered yet!
+
+## Mon 10 Jun 09:41:06 AEST 2019
+
+Yes a gaping hole because there are several previous states to get to the
+current state. So I have an idea with parsing the "moves" file:
+
+ + find all the win and draw states
+ + work out the previous state(s) to get to them. Just use one (hopefully)
+ + for each state that still hasn't got a previous one, find a previous state
+ + repeat until only the empty board has no previous state.
+
+This way, there should be only a single path from any initial move down
+to the resulting win or tie.
+
+## Tue 11 Jun 09:36:28 AEST 2019
+
+I tried the above but I still ended up with several hundred states,
+so I'd need a 9-bit state register and this would still go into the
+ROM, so I'd still need the same size ROM as I had in the beginning.
+So I'll give up on this avenue and go back to the original 256Kx8 ROM.
+
+I've redone the Logisim circuit with the LEDs and buttons in a 3x3
+grid at the top-right of the circuit.
