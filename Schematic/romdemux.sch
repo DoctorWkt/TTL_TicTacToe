@@ -292,46 +292,30 @@ Connection ~ 4000 7150
 $Comp
 L ttt_ttl-rescue:SW_Push SW10
 U 1 1 5CF8072E
-P 5700 7000
-F 0 "SW10" H 5750 7100 50  0000 L CNN
-F 1 "SW_Push" H 5700 6940 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8mm" H 5700 7200 50  0001 C CNN
-F 3 "" H 5700 7200 50  0001 C CNN
-	1    5700 7000
-	1    0    0    -1  
+P 5250 7200
+F 0 "SW10" V 5300 6950 50  0000 L CNN
+F 1 "SW_Push" V 5200 7000 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H8mm" H 5250 7400 50  0001 C CNN
+F 3 "" H 5250 7400 50  0001 C CNN
+	1    5250 7200
+	0    1    1    0   
 $EndComp
-Text GLabel 6100 7000 2    60   Output ~ 0
+Text GLabel 5450 6950 2    60   Output ~ 0
 Reset
 Wire Wire Line
-	5900 7000 6100 7000
+	5250 6950 5450 6950
 $Comp
-L ttt_ttl-rescue:R_Small R39
-U 1 1 5CF80923
+L ttt_ttl-rescue:R_Small R40
+U 1 1 5CF80CCF
 P 5250 6800
-F 0 "R39" H 5050 6850 50  0000 L CNN
-F 1 "10K" H 5050 6750 50  0000 L CNN
+F 0 "R40" H 5050 6850 50  0000 L CNN
+F 1 "1K" H 5050 6750 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 5250 6800 50  0001 C CNN
 F 3 "" H 5250 6800 50  0001 C CNN
 	1    5250 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L ttt_ttl-rescue:R_Small R40
-U 1 1 5CF80CCF
-P 5250 7200
-F 0 "R40" H 5050 7250 50  0000 L CNN
-F 1 "1K" H 5050 7150 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 5250 7200 50  0001 C CNN
-F 3 "" H 5250 7200 50  0001 C CNN
-	1    5250 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 7100 5250 7000
-Wire Wire Line
-	5500 7000 5250 7000
-Connection ~ 5250 7000
-Text GLabel 5450 7400 2    60   Input ~ 0
+Text GLabel 5450 7550 2    60   Input ~ 0
 Lo
 Text GLabel 5450 6600 2    60   Input ~ 0
 Hi
@@ -340,17 +324,13 @@ Wire Wire Line
 Wire Wire Line
 	5250 6600 5250 6700
 Wire Wire Line
-	5450 7400 5250 7400
-Wire Wire Line
-	5250 7400 5250 7300
+	5450 7550 5250 7550
 Wire Wire Line
 	3200 2050 3550 2050
 Wire Wire Line
 	4000 6900 4350 6900
 Wire Wire Line
 	4000 7150 4350 7150
-Wire Wire Line
-	5250 7000 5250 6900
 $Comp
 L Timer:NE555 U12
 U 1 1 5CF8BC33
@@ -515,4 +495,11 @@ F 3 "" H 4800 5200 50  0001 C CNN
 	1    4800 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5250 6900 5250 6950
+Wire Wire Line
+	5250 7400 5250 7550
+Connection ~ 5250 6950
+Wire Wire Line
+	5250 6950 5250 7000
 $EndSCHEMATC

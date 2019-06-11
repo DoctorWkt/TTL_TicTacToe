@@ -1,4 +1,4 @@
-update=Thu 06 Jun 2019 11:21:04 AEST
+update=Tue 11 Jun 2019 13:51:42 AEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -235,12 +235,22 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.4064
-TrackWidth=0.508
-ViaDiameter=1.524
-ViaDrill=0.762
-uViaDiameter=0.5588
-uViaDrill=0.2286
-dPairWidth=0.381
-dPairGap=0.508
+Clearance=0.299999
+TrackWidth=0.381
+ViaDiameter=0.700024
+ViaDrill=0.499872
+uViaDiameter=0.299999
+uViaDrill=0.100076
+dPairWidth=0.2
+dPairGap=0.249936
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
