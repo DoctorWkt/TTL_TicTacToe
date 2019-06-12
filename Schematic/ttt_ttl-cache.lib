@@ -168,11 +168,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ttt_ttl-rescue_27C020
+# ttt_ttl-rescue_27C2001
 #
-DEF ttt_ttl-rescue_27C020 U 0 40 Y Y 1 F N
+DEF ttt_ttl-rescue_27C2001 U 0 40 Y Y 1 F N
 F0 "U" -200 1000 50 H V C CNN
-F1 "ttt_ttl-rescue_27C020" 0 -1400 50 H V C CNN
+F1 "ttt_ttl-rescue_27C2001" 0 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

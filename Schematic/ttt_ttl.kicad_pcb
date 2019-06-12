@@ -3864,7 +3864,7 @@
     (fp_text reference U10 (at 7.62 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 27C020 (at 7.62 40.43 90) (layer F.Fab)
+    (fp_text value 27C2001 (at 7.62 40.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 7.62 -1.33) (end 6.62 -1.33) (angle -180) (layer F.SilkS) (width 0.12))
