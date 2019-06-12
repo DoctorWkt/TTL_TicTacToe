@@ -35,3 +35,7 @@ This is so that we can indicate a draw and not make an X move.
 There are 9 red LEDs on the Q output of the user flip-flops, 9 green LEDs
 on the Q output of the "X move" flip-flops, a LED on the "draw" bit and
 a LED on the "computer wins" bit. 
+
+A high-level block diagram is:
+
+![](design_diagram.png)
