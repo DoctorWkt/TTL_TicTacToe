@@ -38,4 +38,4 @@ a LED on the "computer wins" bit.
 
 A high-level block diagram is:
 
-![](design_diagram.png)
+![](Figs/design_diagram.png)
