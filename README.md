@@ -11,7 +11,7 @@ This is the repository for my result. The circuit uses flip-flops to
 register both the human and the board's moves. These become the address
 into a ROM to look up the next board move, and any tie or win result.
 
-There are several versions of the circuit
+There are several versions of the circuit.
 
 ## Logisim Version
 
