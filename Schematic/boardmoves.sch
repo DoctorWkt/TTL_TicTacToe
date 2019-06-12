@@ -19,7 +19,7 @@ Clk
 Wire Wire Line
 	1200 1600 1300 1600
 NoConn ~ 2600 1350
-Text GLabel 1850 2300 0    60   Input ~ 0
+Text GLabel 1750 850  0    60   Input ~ 0
 Reset
 Wire Wire Line
 	1850 2300 1950 2300
@@ -61,12 +61,12 @@ Wire Wire Line
 Wire Wire Line
 	2850 1400 2850 1500
 $Comp
-L ttt_ttl-rescue:74LS107 U2
+L local:74LS107 U2
 U 2 1 5CF796C7
 P 5650 1600
 F 0 "U2" H 5650 1700 50  0000 C CNN
 F 1 "74LS109" H 5650 1500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5650 1600 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5650 1600 50  0001 C CNN
 F 3 "" H 5650 1600 50  0001 C CNN
 	2    5650 1600
 	1    0    0    -1  
@@ -76,7 +76,7 @@ Clk
 Wire Wire Line
 	4900 1600 5000 1600
 NoConn ~ 6300 1350
-Text GLabel 5550 2300 0    60   Input ~ 0
+Text GLabel 5450 850  0    60   Input ~ 0
 Reset
 Wire Wire Line
 	5550 2300 5650 2300
@@ -118,12 +118,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 1400 6600 1500
 $Comp
-L ttt_ttl-rescue:74LS107 U3
+L local:74LS107 U3
 U 2 1 5CF79A8E
 P 9200 1600
 F 0 "U3" H 9200 1700 50  0000 C CNN
 F 1 "74LS109" H 9200 1500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9200 1600 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9200 1600 50  0001 C CNN
 F 3 "" H 9200 1600 50  0001 C CNN
 	2    9200 1600
 	1    0    0    -1  
@@ -133,7 +133,7 @@ Clk
 Wire Wire Line
 	8450 1600 8550 1600
 NoConn ~ 9850 1350
-Text GLabel 9100 2300 0    60   Input ~ 0
+Text GLabel 9000 850  0    60   Input ~ 0
 Reset
 Wire Wire Line
 	9100 2300 9200 2300
@@ -175,12 +175,12 @@ Wire Wire Line
 Wire Wire Line
 	10050 1400 10050 1500
 $Comp
-L ttt_ttl-rescue:74LS107 U4
+L local:74LS107 U4
 U 2 1 5CF7B138
 P 2000 3650
 F 0 "U4" H 2000 3750 50  0000 C CNN
 F 1 "74LS109" H 2000 3550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2000 3650 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2000 3650 50  0001 C CNN
 F 3 "" H 2000 3650 50  0001 C CNN
 	2    2000 3650
 	1    0    0    -1  
@@ -188,7 +188,7 @@ $EndComp
 Wire Wire Line
 	1250 3650 1350 3650
 NoConn ~ 2650 3400
-Text GLabel 1900 4350 0    60   Input ~ 0
+Text GLabel 1800 2950 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	1900 4350 2000 4350
@@ -230,12 +230,12 @@ Wire Wire Line
 Wire Wire Line
 	2900 3450 2900 3550
 $Comp
-L ttt_ttl-rescue:74LS107 U5
+L local:74LS107 U5
 U 2 1 5CF7B175
 P 5700 3650
 F 0 "U5" H 5700 3750 50  0000 C CNN
 F 1 "74LS109" H 5700 3550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 3650 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5700 3650 50  0001 C CNN
 F 3 "" H 5700 3650 50  0001 C CNN
 	2    5700 3650
 	1    0    0    -1  
@@ -245,7 +245,7 @@ Clk
 Wire Wire Line
 	4950 3650 5050 3650
 NoConn ~ 6350 3400
-Text GLabel 5600 4350 0    60   Input ~ 0
+Text GLabel 5550 2900 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	5600 4350 5700 4350
@@ -287,12 +287,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 3450 6550 3550
 $Comp
-L ttt_ttl-rescue:74LS107 U6
+L local:74LS107 U6
 U 2 1 5CF7BC48
 P 9250 3650
 F 0 "U6" H 9250 3750 50  0000 C CNN
 F 1 "74LS109" H 9250 3550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9250 3650 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9250 3650 50  0001 C CNN
 F 3 "" H 9250 3650 50  0001 C CNN
 	2    9250 3650
 	1    0    0    -1  
@@ -301,7 +301,7 @@ Text GLabel 8500 3650 0    60   Input ~ 0
 Clk
 Wire Wire Line
 	8500 3650 8600 3650
-Text GLabel 9150 4350 0    60   Input ~ 0
+Text GLabel 9050 2900 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	9150 4350 9250 4350
@@ -347,7 +347,7 @@ Clk
 Wire Wire Line
 	1250 5550 1350 5550
 NoConn ~ 2650 5300
-Text GLabel 1900 6250 0    60   Input ~ 0
+Text GLabel 1850 4800 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	1900 6250 2000 6250
@@ -392,17 +392,17 @@ Text GLabel 4950 5550 0    60   Input ~ 0
 Clk
 Wire Wire Line
 	4950 5550 5050 5550
-Text GLabel 5600 6250 0    60   Input ~ 0
+Text GLabel 5500 4800 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	5600 6250 5700 6250
 $Comp
-L ttt_ttl-rescue:74LS107 U9
+L local:74LS107 U9
 U 2 1 5CF7BC51
 P 9250 5550
 F 0 "U9" H 9250 5650 50  0000 C CNN
 F 1 "74LS109" H 9250 5450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9250 5550 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9250 5550 50  0001 C CNN
 F 3 "" H 9250 5550 50  0001 C CNN
 	2    9250 5550
 	1    0    0    -1  
@@ -411,7 +411,7 @@ Text GLabel 8500 5550 0    60   Input ~ 0
 Clk
 Wire Wire Line
 	8500 5550 8600 5550
-Text GLabel 9150 6250 0    60   Input ~ 0
+Text GLabel 9100 4800 0    60   Input ~ 0
 Reset
 Wire Wire Line
 	9150 6250 9250 6250
@@ -473,12 +473,12 @@ Clk
 Text GLabel 4950 5800 0    60   Input ~ 0
 Move8
 $Comp
-L ttt_ttl-rescue:74LS107 U8
+L local:74LS107 U8
 U 2 1 5CF7BC4E
 P 5700 5550
 F 0 "U8" H 5700 5650 50  0000 C CNN
 F 1 "74LS109" H 5700 5450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 5550 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5700 5550 50  0001 C CNN
 F 3 "" H 5700 5550 50  0001 C CNN
 	2    5700 5550
 	1    0    0    -1  
@@ -544,12 +544,12 @@ Wire Wire Line
 Wire Wire Line
 	2650 3900 2900 3900
 $Comp
-L ttt_ttl-rescue:74LS107 U7
+L local:74LS107 U7
 U 2 1 5CF7B867
 P 2000 5550
 F 0 "U7" H 2000 5650 50  0000 C CNN
 F 1 "74LS109" H 2000 5450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2000 5550 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2000 5550 50  0001 C CNN
 F 3 "" H 2000 5550 50  0001 C CNN
 	2    2000 5550
 	1    0    0    -1  
@@ -559,12 +559,12 @@ Wire Wire Line
 Wire Wire Line
 	1250 5800 1350 5800
 $Comp
-L ttt_ttl-rescue:74LS107 U1
+L local:74LS107 U1
 U 2 1 5CF77C50
 P 1950 1600
 F 0 "U1" H 1950 1700 50  0000 C CNN
 F 1 "74LS109" H 1950 1500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1950 1600 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 1950 1600 50  0001 C CNN
 F 3 "" H 1950 1600 50  0001 C CNN
 	2    1950 1600
 	1    0    0    -1  
@@ -617,4 +617,58 @@ Text GLabel 1200 5300 0    60   Input ~ 0
 Lo
 Wire Wire Line
 	1200 5300 1350 5300
+Text GLabel 1850 2300 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	1950 1000 1950 850 
+Wire Wire Line
+	1950 850  1750 850 
+Wire Wire Line
+	5650 1000 5650 850 
+Wire Wire Line
+	5650 850  5450 850 
+Text GLabel 5550 2300 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	9200 1000 9200 850 
+Wire Wire Line
+	9200 850  9000 850 
+Text GLabel 9100 2300 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	2000 3050 2000 2950
+Wire Wire Line
+	2000 2950 1800 2950
+Text GLabel 1900 4350 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	5700 3050 5700 2900
+Wire Wire Line
+	5700 2900 5550 2900
+Text GLabel 5600 4350 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	9250 3050 9250 2900
+Wire Wire Line
+	9250 2900 9050 2900
+Text GLabel 9150 4350 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	2000 4950 2000 4800
+Wire Wire Line
+	2000 4800 1850 4800
+Text GLabel 1900 6250 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	5700 4950 5700 4800
+Wire Wire Line
+	5700 4800 5500 4800
+Text GLabel 5600 6250 0    50   Input ~ 0
+Hi
+Wire Wire Line
+	9250 4950 9250 4800
+Wire Wire Line
+	9250 4800 9100 4800
+Text GLabel 9150 6250 0    50   Input ~ 0
+Hi
 $EndSCHEMATC

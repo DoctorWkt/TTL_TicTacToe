@@ -110,3 +110,10 @@ I can either use one of the 28C256 32Kx8 EEPROMs that I have (only 15
 bits or addressing), or dig out my spare 27C322 2Mx16 EPROM which I
 used as the ALU in the CSCvon8. That takes 10 minutes to program
 though.
+
+I've updated the schematic with the proper pinouts for the 74LS109.
+I've added a couple of pads for power input and a 220uF cap as well.
+The 74LS109 was a DIP-14 and now a DIP-16, hah!! Anyway, I'm running
+a freeroute just to see how many vias are required. Looks like about
+8 vias which is pretty good. I've added the copper zones and done a
+DRC and all is OK.

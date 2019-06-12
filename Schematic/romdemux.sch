@@ -17,15 +17,15 @@ $EndDescr
 $Comp
 L power:VCC #PWR02
 U 1 1 5CF78A19
-P 3500 6900
-F 0 "#PWR02" H 3500 6750 50  0001 C CNN
-F 1 "VCC" H 3500 7050 50  0000 C CNN
-F 2 "" H 3500 6900 50  0001 C CNN
-F 3 "" H 3500 6900 50  0001 C CNN
-	1    3500 6900
+P 3500 6850
+F 0 "#PWR02" H 3500 6700 50  0001 C CNN
+F 1 "VCC" H 3500 7000 50  0000 C CNN
+F 2 "" H 3500 6850 50  0001 C CNN
+F 3 "" H 3500 6850 50  0001 C CNN
+	1    3500 6850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 6900 2    60   Input ~ 0
+Text GLabel 4350 6850 2    60   Input ~ 0
 Hi
 Text GLabel 4350 7150 2    60   Input ~ 0
 Lo
@@ -64,9 +64,9 @@ Move7
 Text GLabel 6300 1750 2    60   Output ~ 0
 Move8
 Wire Wire Line
-	3500 6900 4000 6900
+	3500 6850 3750 6850
 Wire Wire Line
-	3500 7150 4000 7150
+	3500 7150 3750 7150
 Wire Wire Line
 	6100 1050 6300 1050
 Wire Wire Line
@@ -264,12 +264,12 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5CF7F449
-P 4000 6700
-F 0 "#FLG03" H 4000 6775 50  0001 C CNN
-F 1 "PWR_FLAG" H 4000 6850 50  0000 C CNN
-F 2 "" H 4000 6700 50  0001 C CNN
-F 3 "" H 4000 6700 50  0001 C CNN
-	1    4000 6700
+P 4000 6650
+F 0 "#FLG03" H 4000 6725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4000 6800 50  0000 C CNN
+F 2 "" H 4000 6650 50  0001 C CNN
+F 3 "" H 4000 6650 50  0001 C CNN
+	1    4000 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -284,8 +284,8 @@ F 3 "" H 4000 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4000 6700 4000 6900
-Connection ~ 4000 6900
+	4000 6650 4000 6850
+Connection ~ 4000 6850
 Wire Wire Line
 	4000 7400 4000 7150
 Connection ~ 4000 7150
@@ -328,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2050 3550 2050
 Wire Wire Line
-	4000 6900 4350 6900
+	4000 6850 4350 6850
 Wire Wire Line
 	4000 7150 4350 7150
 $Comp
@@ -502,4 +502,51 @@ Wire Wire Line
 Connection ~ 5250 6950
 Wire Wire Line
 	5250 6950 5250 7000
+$Comp
+L Device:CP C3
+U 1 1 5D0C87CD
+P 3750 7000
+F 0 "C3" H 3868 7046 50  0000 L CNN
+F 1 "220uF" H 3868 6955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 3788 6850 50  0001 C CNN
+F 3 "~" H 3750 7000 50  0001 C CNN
+	1    3750 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 6850
+Wire Wire Line
+	3750 6850 4000 6850
+Connection ~ 3750 7150
+Wire Wire Line
+	3750 7150 4000 7150
+Text GLabel 1450 6250 0    60   Input ~ 0
+Hi
+Text GLabel 1450 6700 0    60   Input ~ 0
+Lo
+Wire Wire Line
+	1450 6250 1600 6250
+Wire Wire Line
+	1450 6700 1600 6700
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5D008CFB
+P 1800 6250
+F 0 "J1" H 1880 6292 50  0000 L CNN
+F 1 "Conn_01x01" H 1880 6201 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1800 6250 50  0001 C CNN
+F 3 "~" H 1800 6250 50  0001 C CNN
+	1    1800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5D00904C
+P 1800 6700
+F 0 "J2" H 1880 6742 50  0000 L CNN
+F 1 "Conn_01x01" H 1880 6651 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1800 6700 50  0001 C CNN
+F 3 "~" H 1800 6700 50  0001 C CNN
+	1    1800 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
