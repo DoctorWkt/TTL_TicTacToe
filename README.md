@@ -1,5 +1,15 @@
 # TTL_TicTacToe
 
+> __NOTE!!__ As at 13th June 2019 it's broken. I'm trying to use a
+> smaller ROM as they are more commonly available. I'm trying to
+> encode a 4-bit "state number" in the ROM output as well as the 4-bits
+> for the move. This state number is latched and then forms 4 bits
+> of the address, as well as the 9 bits of user move, to look up
+> the next move by the board. 
+>
+> I've changed the Logisim circuit and I've written the code to generate
+> the ROM contents. It's not working fully yet. But it must be close.
+
 I've seen several circuits for two-player tic-tac-toe games on the Internet,
 but I thought I'd try to design one with these constraints:
 

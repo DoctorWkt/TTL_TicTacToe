@@ -117,3 +117,65 @@ The 74LS109 was a DIP-14 and now a DIP-16, hah!! Anyway, I'm running
 a freeroute just to see how many vias are required. Looks like about
 8 vias which is pretty good. I've added the copper zones and done a
 DRC and all is OK.
+
+## Thu 13 Jun 09:23:27 AEST 2019
+
+I just had an idea a few minutes ago. The nine bits of user move into
+the ROM are a given. But for this "state" of user moves, how many
+possible X move combinations are there? If there's only a few, we can
+store them in a register, and then update the register to move us to
+the next "X state". We already have the flip-flops recording the
+"O state". And if by few, I mean 6 or less, then we can use a 9+6=15 bit
+EEPROM instead of a large EEPROM. We will need one more chip.
+
+I've written the Perl code to evaluate, and the biggest "X state" space
+for any "O state" is six. This fits nicely into three bits. We can use
+3 bits of a 4-bit register and feed 9+3 bits into the EEPROM.
+
+The problem is, we need 3 bits of output to update the "X state" register.
+We already need 4 bits of output for the next X move. There's only one
+bit left over if the EEPROM has 8 bits of output, so how do we indicate
+both a win and a tie?
+
+I think I know the answer. It will take two clock cycles. On the first cycle,
+the user enters a move and updates the "O state". The current "X state" is
+known. We look up in the ROM the next X move and the next "X state". This gets
+stored in the register.
+
+On the second cycle, the "O state" is the same but the "X state" is new.
+Now, we output the same "X state" but we output a number 14 as the X move
+H for a tie, and number 15 as the X move for a win. These go to the demux
+and we tie the LEDs to outputs 14 and 15.
+
+I'll use a 161 as a register as I should already have them at home.
+
+Um, well. The problem is yes there are only a few X state to go
+with each O state. But I've got to derive state numbers so that previous
+states can point to them. But. Assume that there are only 4-bit state
+numbers, so there's only 16 possible state numbers. There are 185 actual
+X states, so I'm going to have to re-use state numbers across the X states.
+To do this, I have to ensure that there won't be a collision between
+a shared X state number and a valid O state at that point. Now how do I
+do that?
+
+Effectively, I have a matrix of Ostates and Xstates:
+
+```
+       Xstate |
+Ostate        | XX______X  XX__X___X  XX__X____  etc
+--------------+--------------------------------------------------------
+  __OO__OO_   |
+  ___O_____   |
+  O__OO__O_   |
+     etc      |
+```
+
+and in the middle I need to generate state numbers but in such a way
+that in each column the state number is constant but on each row
+every state number is different. Is this even possible?
+
+## Thu 13 Jun 14:12:01 AEST 2019
+
+I've just spent way too long on this. I had to write a recursive solution
+to allocate the state numbers. It's sort of working but not always working.
+So something is wrong, not sure what yet.
