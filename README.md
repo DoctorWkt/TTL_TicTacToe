@@ -10,7 +10,7 @@
 > I've changed the Logisim circuit and I've written the code to generate
 > the ROM contents. It's not working fully yet. But it must be close.
 >
-> The 12th June update used the old 2Mx8 EPROM and it worked fine.
+> The 12th June update used the old 256Kx8 EPROM and it worked fine.
 
 I've seen several circuits for two-player tic-tac-toe games on the Internet,
 but I thought I'd try to design one with these constraints:
