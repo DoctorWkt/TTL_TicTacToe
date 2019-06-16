@@ -198,3 +198,8 @@ working as far as I've been able to test them.
 I've redone the schematic and PCB with the 74HC161, moved the power
 pins to align with my micro-USB connectors, and done the copper pour.
 129.5mm by 80mm.
+
+## Mon 17 Jun 09:23:24 AEST 2019
+
+I announced the project on Twitter, and I've just improved the design notes
+with a discussion of the state numbers.
