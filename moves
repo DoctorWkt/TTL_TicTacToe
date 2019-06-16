@@ -1,3 +1,12 @@
+____O____ X move 1 X___O____
+___O_____ X move 1 X__O_____
+_O_______ X move 1 XO_______
+_______O_ X move 2 _X_____O_
+_____O___ X move 3 __X__O___
+__O______ X move 5 __O_X____
+O________ X move 5 O___X____
+________O X move 5 ____X___O
+______O__ X move 5 ____X_O__
 O_OOX_X__ X move 2 OXOOX_X__
 OO_OX_X__ X move 3 win OOXOX_X__
 __OOXO__X X move 1 win X_OOXO__X
@@ -44,15 +53,6 @@ OOXXXO__O X move 7 win OOXXXOX_O
 OOXXXO_O_ X move 7 win OOXXXOXO_
 OOXXXOO__ X move 8 OOXXXOOX_
 OOXXXOOXO tie
-____O____ X move 1 X___O____
-___O_____ X move 1 X__O_____
-_O_______ X move 1 XO_______
-_______O_ X move 2 _X_____O_
-_____O___ X move 3 __X__O___
-__O______ X move 5 __O_X____
-O________ X move 5 O___X____
-________O X move 5 ____X___O
-______O__ X move 5 ____X_O__
 OXOOOXXOX tie
 OXOOXOXOX tie
 OXO__OXOX X move 4 OXOX_OXOX

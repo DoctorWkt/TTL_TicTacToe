@@ -1,17 +1,5 @@
 # TTL_TicTacToe
 
-> __NOTE!!__ As at 13th June 2019 it's broken. I'm trying to use a
-> smaller ROM as they are more commonly available. I'm trying to
-> encode a 4-bit "state number" in the ROM output as well as the 4-bits
-> for the move. This state number is latched and then forms 4 bits
-> of the address, as well as the 9 bits of user move, to look up
-> the next move by the board. 
->
-> I've changed the Logisim circuit and I've written the code to generate
-> the ROM contents. It's not working fully yet. But it must be close.
->
-> The 12th June update used the old 256Kx8 EPROM and it worked fine.
-
 I've seen several circuits for two-player tic-tac-toe games on the Internet,
 but I thought I'd try to design one with these constraints:
 
@@ -20,8 +8,10 @@ but I thought I'd try to design one with these constraints:
  + not two player: human versus the board, board makes optimal moves
 
 This is the repository for my result. The circuit uses flip-flops to
-register both the human and the board's moves. These become the address
-into a ROM to look up the next board move, and any tie or win result.
+register both the human and the board's moves. The board has a register
+which holds the current state of the board's moves. The board state and
+the user's moves are combined to access a ROM to look up the next board move
+and any tie or win result.
 
 There are several versions of the circuit.
 
@@ -48,6 +38,9 @@ plus any tie and win result.
 The 4-bit board move goes into the 4:16 demultiplexer to generate the nine
 lines which go to the nine JK flip-flops to record the board's moves.
 
+The ROM also generates the next state of the board's moves. This is
+recorded into a 4-bit register.
+
 ## Kicad Schematic
 
 In the _Schematic/_ folder you will find a
@@ -55,9 +48,10 @@ In the _Schematic/_ folder you will find a
 
  + nine 74HC107 dual JK flip flops. Each one holds both the user and board
    move for one position on the board
- + one 27C2001 256Kx8 EPROM to look up the next board move. This is an
-   obsolete part but you can still buy them second-hand.
+ + one 28C256 32Kx8 EEPROM to look up the next board move. We only use
+   8K of the space in the EEPROM.
  + one 74HC154 4:16 demultiplexer
+ + one 75HC161 register to hold the board state
  + one 555 to generate the clock signal
  + various LEDs to show the moves, and other sundry components.
 

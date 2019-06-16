@@ -179,3 +179,22 @@ every state number is different. Is this even possible?
 I've just spent way too long on this. I had to write a recursive solution
 to allocate the state numbers. It's sort of working but not always working.
 So something is wrong, not sure what yet.
+
+## Sun 16 Jun 12:18:15 AEST 2019
+
+At home. I've written a Perl program to load the ROM and play the game using
+the ROM. It plays the same way as the Logisim version, so at least there is
+consistency.
+
+Hah. I added code to parse_moves.pl when I was writing to a ROM value that
+was already there, and I'm doing this a lot. That means my state values are
+not what they should be. Added some more debug code and I can see several
+Ostates with Xstates that have the same state number.
+
+I decided to rewrite the recursive algorithm from scratch. I still see
+some warning flags but both the Logisim and Perl versions seem to be
+working as far as I've been able to test them.
+
+I've redone the schematic and PCB with the 74HC161, moved the power
+pins to align with my micro-USB connectors, and done the copper pour.
+129.5mm by 80mm.

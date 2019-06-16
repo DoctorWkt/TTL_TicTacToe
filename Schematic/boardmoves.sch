@@ -25,15 +25,13 @@ Wire Wire Line
 	1850 2300 1950 2300
 Text GLabel 1200 1850 0    60   Input ~ 0
 Move1
-Text GLabel 3150 1850 2    60   Output ~ 0
-Board1
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D10
 U 1 1 5CF7BC3A
 P 2850 1600
 F 0 "D10" V 2950 1650 50  0000 L CNN
 F 1 "LED" V 2850 1700 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 2850 1600 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 2850 1600 50  0001 C CNN
 F 3 "" V 2850 1600 50  0001 C CNN
 	1    2850 1600
 	0    1    1    0   
@@ -55,7 +53,6 @@ Wire Wire Line
 	3200 1400 3100 1400
 Wire Wire Line
 	2850 1700 2850 1850
-Connection ~ 2850 1850
 Wire Wire Line
 	2900 1400 2850 1400
 Wire Wire Line
@@ -82,15 +79,13 @@ Wire Wire Line
 	5550 2300 5650 2300
 Text GLabel 4900 1850 0    60   Input ~ 0
 Move2
-Text GLabel 6900 1850 2    60   Output ~ 0
-Board2
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D13
 U 1 1 5CF796F2
 P 6600 1600
 F 0 "D13" V 6700 1650 50  0000 L CNN
 F 1 "LED" V 6600 1700 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 6600 1600 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 6600 1600 50  0001 C CNN
 F 3 "" V 6600 1600 50  0001 C CNN
 	1    6600 1600
 	0    1    1    0   
@@ -112,7 +107,6 @@ Wire Wire Line
 	6950 1400 6850 1400
 Wire Wire Line
 	6600 1700 6600 1850
-Connection ~ 6600 1850
 Wire Wire Line
 	6650 1400 6600 1400
 Wire Wire Line
@@ -139,15 +133,13 @@ Wire Wire Line
 	9100 2300 9200 2300
 Text GLabel 8450 1850 0    60   Input ~ 0
 Move3
-Text GLabel 10350 1850 2    60   Output ~ 0
-Board3
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D16
 U 1 1 5CF79AB9
 P 10050 1600
 F 0 "D16" V 10150 1650 50  0000 L CNN
 F 1 "LED" V 10050 1700 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 10050 1600 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 10050 1600 50  0001 C CNN
 F 3 "" V 10050 1600 50  0001 C CNN
 	1    10050 1600
 	0    1    1    0   
@@ -169,7 +161,6 @@ Wire Wire Line
 	10400 1400 10300 1400
 Wire Wire Line
 	10050 1700 10050 1850
-Connection ~ 10050 1850
 Wire Wire Line
 	10100 1400 10050 1400
 Wire Wire Line
@@ -194,15 +185,13 @@ Wire Wire Line
 	1900 4350 2000 4350
 Text GLabel 1250 3900 0    60   Input ~ 0
 Move4
-Text GLabel 3200 3900 2    60   Output ~ 0
-Board4
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D11
 U 1 1 5CF7B163
 P 2900 3650
 F 0 "D11" V 3000 3700 50  0000 L CNN
 F 1 "LED" V 2900 3750 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 2900 3650 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 2900 3650 50  0001 C CNN
 F 3 "" V 2900 3650 50  0001 C CNN
 	1    2900 3650
 	0    1    1    0   
@@ -224,7 +213,6 @@ Wire Wire Line
 	3250 3450 3150 3450
 Wire Wire Line
 	2900 3750 2900 3900
-Connection ~ 2900 3900
 Wire Wire Line
 	2950 3450 2900 3450
 Wire Wire Line
@@ -251,15 +239,13 @@ Wire Wire Line
 	5600 4350 5700 4350
 Text GLabel 4950 3900 0    60   Input ~ 0
 Move5
-Text GLabel 6850 3900 2    60   Output ~ 0
-Board5
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D14
 U 1 1 5CF7BC46
 P 6550 3650
 F 0 "D14" V 6650 3700 50  0000 L CNN
 F 1 "LED" V 6550 3750 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 6550 3650 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 6550 3650 50  0001 C CNN
 F 3 "" V 6550 3650 50  0001 C CNN
 	1    6550 3650
 	0    1    1    0   
@@ -281,7 +267,6 @@ Wire Wire Line
 	6900 3450 6800 3450
 Wire Wire Line
 	6550 3750 6550 3900
-Connection ~ 6550 3900
 Wire Wire Line
 	6600 3450 6550 3450
 Wire Wire Line
@@ -307,15 +292,13 @@ Wire Wire Line
 	9150 4350 9250 4350
 Text GLabel 8500 3900 0    60   Input ~ 0
 Move6
-Text GLabel 10350 3900 2    60   Output ~ 0
-Board6
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D17
 U 1 1 5CF7BC49
 P 10050 3650
 F 0 "D17" V 10150 3700 50  0000 L CNN
 F 1 "LED" V 10050 3750 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 10050 3650 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 10050 3650 50  0001 C CNN
 F 3 "" V 10050 3650 50  0001 C CNN
 	1    10050 3650
 	0    1    1    0   
@@ -337,7 +320,6 @@ Wire Wire Line
 	10400 3450 10300 3450
 Wire Wire Line
 	10050 3750 10050 3900
-Connection ~ 10050 3900
 Wire Wire Line
 	10100 3450 10050 3450
 Wire Wire Line
@@ -353,15 +335,13 @@ Wire Wire Line
 	1900 6250 2000 6250
 Text GLabel 1250 5800 0    60   Input ~ 0
 Move7
-Text GLabel 3200 5800 2    60   Output ~ 0
-Board7
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D12
 U 1 1 5CF7B892
 P 2900 5550
 F 0 "D12" V 3000 5600 50  0000 L CNN
 F 1 "LED" V 2900 5650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 2900 5550 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 2900 5550 50  0001 C CNN
 F 3 "" V 2900 5550 50  0001 C CNN
 	1    2900 5550
 	0    1    1    0   
@@ -383,7 +363,6 @@ Wire Wire Line
 	3250 5350 3150 5350
 Wire Wire Line
 	2900 5650 2900 5800
-Connection ~ 2900 5800
 Wire Wire Line
 	2950 5350 2900 5350
 Wire Wire Line
@@ -417,15 +396,13 @@ Wire Wire Line
 	9150 6250 9250 6250
 Text GLabel 8500 5800 0    60   Input ~ 0
 Move9
-Text GLabel 10350 5800 2    60   Output ~ 0
-Board9
 $Comp
 L ttt_ttl-rescue:LED_Small_ALT D18
 U 1 1 5CF7BC52
 P 10050 5550
 F 0 "D18" V 10150 5600 50  0000 L CNN
 F 1 "LED" V 10050 5650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 10050 5550 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 10050 5550 50  0001 C CNN
 F 3 "" V 10050 5550 50  0001 C CNN
 	1    10050 5550
 	0    1    1    0   
@@ -447,27 +424,10 @@ Wire Wire Line
 	10400 5350 10300 5350
 Wire Wire Line
 	10050 5650 10050 5800
-Connection ~ 10050 5800
 Wire Wire Line
 	10100 5350 10050 5350
 Wire Wire Line
 	10050 5350 10050 5450
-Wire Wire Line
-	2850 1850 3150 1850
-Wire Wire Line
-	6600 1850 6900 1850
-Wire Wire Line
-	10050 1850 10350 1850
-Wire Wire Line
-	2900 3900 3200 3900
-Wire Wire Line
-	6550 3900 6850 3900
-Wire Wire Line
-	10050 3900 10350 3900
-Wire Wire Line
-	2900 5800 3200 5800
-Wire Wire Line
-	10050 5800 10350 5800
 Text GLabel 1250 3650 0    60   Input ~ 0
 Clk
 Text GLabel 4950 5800 0    60   Input ~ 0
@@ -486,12 +446,9 @@ $EndComp
 Wire Wire Line
 	4950 5800 5050 5800
 Wire Wire Line
-	6600 5800 6900 5800
-Wire Wire Line
 	6600 5350 6600 5450
 Wire Wire Line
 	6650 5350 6600 5350
-Connection ~ 6600 5800
 Wire Wire Line
 	6600 5650 6600 5800
 Wire Wire Line
@@ -515,13 +472,11 @@ U 1 1 5CF7B8CF
 P 6600 5550
 F 0 "D15" V 6700 5600 50  0000 L CNN
 F 1 "LED" V 6600 5650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 6600 5550 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 6600 5550 50  0001 C CNN
 F 3 "" V 6600 5550 50  0001 C CNN
 	1    6600 5550
 	0    1    1    0   
 $EndComp
-Text GLabel 6900 5800 2    60   Output ~ 0
-Board8
 Wire Wire Line
 	6350 5800 6600 5800
 NoConn ~ 6350 5300
