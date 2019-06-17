@@ -4,7 +4,7 @@
 
 The state of each position on the board is stored in nine dual JK flip-flops.
 The user makes a move by pressing a pushbutton which is recorded in one
-flip-flop. Any move made by the board is recorded in a second flip-flip.
+flip-flop. Any move made by the board is recorded in a second flip-flop.
 This allows two different LEDs to be lit up: green for a user move and red
 for a board move at each position. Two flip-flops also allows the board's
 move as input to the user flip-flop; this prevents the user from making a

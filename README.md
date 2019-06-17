@@ -12,8 +12,9 @@ register both the human and the board's moves. The board has a register
 which holds the current state of the board's moves. The board state and
 the user's moves are combined to access a ROM to look up the next board move
 and any tie or win result.
+An [overview of the design](design_notes.md) is available.
 
-There are several versions of the circuit.
+There are several versions of the design.
 
 ## Logisim Version
 
@@ -32,14 +33,14 @@ LEDs light up in blue. There is also a tie LED and a win LED.
 
 Over on the left are the nine JK flip-flops to record the user's moves,
 and the nine JK flip-flops to record the board's moves. Below that is
-the ROM which generates a 4-bit value which is the new board's move,
-plus any tie and win result.
-
+the ROM which generates a 4-bit value which is the new board's move.
 The 4-bit board move goes into the 4:16 demultiplexer to generate the nine
 lines which go to the nine JK flip-flops to record the board's moves.
+Two of the 16 possible moves are used to indicate a tie or a board win.
 
 The ROM also generates the next state of the board's moves. This is
-recorded into a 4-bit register.
+recorded into a 4-bit register. See the [design notes](design_notes.md)
+for details of the state number.
 
 ## Kicad Schematic
 
@@ -51,7 +52,7 @@ In the _Schematic/_ folder you will find a
  + one 28C256 32Kx8 EEPROM to look up the next board move. We only use
    8K of the space in the EEPROM.
  + one 74HC154 4:16 demultiplexer
- + one 75HC161 register to hold the board state
+ + one 75HC161 register to hold the board state number
  + one 555 to generate the clock signal
  + various LEDs to show the moves, and other sundry components.
 
