@@ -43,8 +43,8 @@ the user could have made this move. Therefore, these situations can be
 encoded into a "state number". A state number and the 9-bit "user moves"
 pattern is enough to look up the next move the board should play.
 
-There are actually several hundred "board move" situations, but I needed
-to encode these into 4 bits, and I was already outputting 4 bits for the
+There are actually several hundred "board move" situations; I needed
+to encode these into 4 bits as I was already outputting 4 bits for the
 board's move. Thus, the 4-bit state number is actually a hash value;
 several "board move" situations hash down to the same state number.
 
@@ -63,17 +63,17 @@ All of the above has to be implemented with real 7400-style devices.
 For the real circuit, I will use these devices:
 
 ```
-27C2001		A 32Kx8 EEPROM, of which we only need 8Kx8. 13 bits of
-		input, 8 bits of output. 9 bits of inputs are the user's
-		moves so far. 4 bits of input are the current board state
-		as stored in the 74HC161 register. 4 output bits represent
-		the board move (1 to 9). The other 4 output bits represent
-		the next board state to put into the register. A move
-		numbered 14 is a tie; a move numbered 15 is a board win.
+28C256          A 32Kx8 EEPROM, of which we only need 8Kx8. 13 bits of
+                input, 8 bits of output. 9 bits of inputs are the user's
+                moves so far. 4 bits of input are the current board state
+                as stored in the 74HC161 register. 4 output bits represent
+                the board move (1 to 9). The other 4 output bits represent
+                the next board state to put into the register. A move
+                numbered 14 is a tie; a move numbered 15 is a board win.
 74HC154         A 4-line to 16-line decoder/demultiplexer, inverting outputs.
                 The 4-bit board move output from the ROM is wired to this.
                 9 outputs are wired to the flip-flips for the X moves.
-74HC161		A 4-bit register to hold the next board state from the EEPROM.
+74HC161         A 4-bit register to hold the next board state from the EEPROM.
 74HC107         Nine dual JK flip-flops with reset; negative-edge trigger.
 555             A timer running at 100Hz or so.
 ```
