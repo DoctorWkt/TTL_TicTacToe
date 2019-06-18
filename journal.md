@@ -203,3 +203,15 @@ pins to align with my micro-USB connectors, and done the copper pour.
 
 I announced the project on Twitter, and I've just improved the design notes
 with a discussion of the state numbers.
+
+## Tue 18 Jun 10:53:11 AEST 2019
+
+I bought some pushbuttons at Jaycar but they are bigger than the ones I'd
+put on the PCB design. So last night I redid the PCB design. It also means
+that I'll have to do some rewiring of my breadboard version as I will need
+to make some room for the switches.
+
+Also, I realised that I'll have to redo the wiring for the win and tie LEDs.
+I forgot that the demux is active low, so it drops to zero when a line is
+active. I'll have to use the demux outputs as "ground" and wire the LEDs
+up to Vcc, i.e. backwards in a sense.
