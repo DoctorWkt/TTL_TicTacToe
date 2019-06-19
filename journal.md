@@ -215,3 +215,16 @@ Also, I realised that I'll have to redo the wiring for the win and tie LEDs.
 I forgot that the demux is active low, so it drops to zero when a line is
 active. I'll have to use the demux outputs as "ground" and wire the LEDs
 up to Vcc, i.e. backwards in a sense.
+
+## Wed 19 Jun 10:44:02 AEST 2019
+
+Last night I moved the flip-flop chips on the breadboard to accomodate the
+pushbuttons. I was able to get five of the flip-flops wired up:
+
+![](Figs/breadboard2.jpg)
+
+The white button is the reset button, the green buttons are the user
+move buttons. There are five patch cables to hold the board move
+high, but I can toggle them to make a board move. Eventually the
+patch cables will go away when the nine demux lines are connected
+to the nine flip-flop chips.
