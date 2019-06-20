@@ -271,3 +271,11 @@ moving at position 1? I think once that's fixed then perhaps the other
 move oddities will go away. I have a single LED/resistor with me and
 I've just checked that both the win and tie LEDs light up with the
 0V values from the demux. That's excellent news.
+
+## Thu 20 Jun 13:51:21 AEST 2019
+
+I found it. The user move wire for position 5 was wired to the wrong
+pin on the flip-flop. It's fixed. Now a reset keeps all positions off,
+and the board seems to be playing a sensible game. Later, I'll fix up
+the LED resistors and put in a green tie LED as well as the red win LED.
+Then I'll do a video for Youtube. Success!
