@@ -249,3 +249,25 @@ I've put them both on the breadboard. I've wired the register inputs and
 outputs to the ROM. I've added the reset and clock lines to the register.
 I've wired the four move lines from the ROM to the demux. I think all that's
 left are the nine user moves to the ROM, oh, and the debugging! Lunch time.
+
+## Thu 20 Jun 13:27:53 AEST 2019
+
+![](Figs/breadboard3.jpg)
+
+I've done the wiring. Position 1 is top-left, position 9 is bottom-right.
+White lines are the clock, blue is reset. The yellow lines are the select
+lines into the demux and the board move lines out from the demux. The blue
+lines on the register are the lines in from the ROM and the lines out to the
+ROM. The green lines are the user move lines in as address lines for the ROM.
+Yes, I ran out of green wire for two of the user move lines.
+
+Well, it sort of works. After a reset, the board has already moved at
+position 1. I can then make some moves, and it generally plays sensible
+moves to block me and/or build a winning line. A reset brings it back to
+the current start situation.
+
+Thus there is some debugging to do. Why are we starting with the board
+moving at position 1? I think once that's fixed then perhaps the other
+move oddities will go away. I have a single LED/resistor with me and
+I've just checked that both the win and tie LEDs light up with the
+0V values from the demux. That's excellent news.
