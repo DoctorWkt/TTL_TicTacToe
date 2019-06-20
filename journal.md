@@ -228,3 +228,24 @@ move buttons. There are five patch cables to hold the board move
 high, but I can toggle them to make a board move. Eventually the
 patch cables will go away when the nine demux lines are connected
 to the nine flip-flop chips.
+
+## Thu 20 Jun 09:40:17 AEST 2019
+
+I've wired up all the remaining flip-flops as above. The last five have
+very dim LEDs, but they work as expected. I can't tell if this is the
+LEDs, the chips or what. I swapped a pair of LEDs and that didn't make
+a difference. So it's either the wiring, the resistor or the chip.
+
+Ah, it's the resistors. Some are 1K (too much) and others are 100ohm.
+I might experiment with some which are as close to 1K as I can get
+to ensure we don't drop the voltage too much.
+
+I've put in the 4:16 demux and tested it in isolation with some jumpers
+and a LED. Now I've wired in the nine lines out to the flip-flops and
+checked, with the jumpers, that these work fine. Now it's time for the
+ROM and register!
+
+I've put them both on the breadboard. I've wired the register inputs and
+outputs to the ROM. I've added the reset and clock lines to the register.
+I've wired the four move lines from the ROM to the demux. I think all that's
+left are the nine user moves to the ROM, oh, and the debugging! Lunch time.
