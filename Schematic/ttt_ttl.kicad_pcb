@@ -4028,7 +4028,7 @@
   (gr_text 5V (at 34.1884 141.6812) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text v2019/06/18 (at 32.0548 146.3548) (layer F.SilkS)
+  (gr_text v2019/06/23 (at 32.0548 146.3548) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (gr_text "TTL\nTic Tac Toe\n(c) 2019 W. Toomey" (at 44.958 115.443) (layer F.SilkS)
