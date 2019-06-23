@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use autodie;
+
+# Get any padding amount
+my $numpad=0;
+while (defined($ARGV[0]) && ($ARGV[0]=~ m{^-})) {
+  if ($ARGV[0] eq "-pad") {
+    shift(@ARGV); $numpad=int($ARGV[0]);
+    shift(@ARGV); next;
+  }
+  die("Usage: $0 [-pad NNN] binfile hexfile [hexfile ...]\n");
+}
+
+# Print usage if we don't have two arguments
+die("Usage: $0 [-pad NNN] binfile hexfile [hexfile ...]\n") if (@ARGV < 2);
+
+# Open the output file
+open(my $OUT, '>:raw', $ARGV[0]); shift(@ARGV);
+
+# Process each input file
+foreach my $file (@ARGV) {
+  open(my $IN, '<', $file);
+
+  while (<$IN>) {
+    chomp;
+    # Skip lines that have the word "raw" on them
+    next if ($_=~ m{raw});
+
+    # Split line into words, convert from hex, save as a byte
+    foreach my $hexbyte(split(m{\s+}, $_)) {
+      print($OUT pack("C1", hex($hexbyte)));
+    }
+  }
+
+  close($IN);
+}
+
+# Now apply the padding
+foreach my $count (1 .. $numpad) {
+  print($OUT pack("C1", 0));
+}
+close($OUT);
+exit(0);

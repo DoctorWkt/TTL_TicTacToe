@@ -70,6 +70,7 @@ SW7,SW_Push,Button_Switch_THT:Push_E-Switch_KS01Q01
 SW8,SW_Push,Button_Switch_THT:Push_E-Switch_KS01Q01
 SW9,SW_Push,Button_Switch_THT:Push_E-Switch_KS01Q01
 SW10,SW_Push,Button_Switch_THT:Push_E-Switch_KS01Q01
+SW11,SW_DPDTx2,Package_DIP:DIP-6_W7.62mm,TL2230EEF140
 U1,74HC109,Package_DIP:DIP-16_W7.62mm
 U2,74HC109,Package_DIP:DIP-16_W7.62mm
 U3,74HC109,Package_DIP:DIP-16_W7.62mm

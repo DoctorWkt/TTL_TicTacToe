@@ -167,6 +167,15 @@ sub run_games
         print("$oboard X move $xmove win $xboard\n");
       } else {
         print("$oboard X move $xmove $xboard\n");
+
+        # See if a tie
+        my $count=0;
+        foreach my $i (1 .. 9) {
+          $count++ if ($b[$i] ne ' ');
+        }
+        if ($count==9) {
+          print("$xboard tie\n");
+        }
       }
 
       # Now recurse to do all the next O moves
@@ -179,9 +188,20 @@ sub run_games
   }
 }
 
-### MAIN PROGRAM
+#### MAIN PROGRAM ####
+
+# Generate moves where X goes first
+my $xfirst=0;
+while (@ARGV > 0) {
+  if ($ARGV[0] eq "-xfirst") { $xfirst=1; shift(@ARGV); next; }
+}
 
 # Initialise the board
-my @b = (' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
+my @b;
+if ($xfirst) {
+  @b= (' ', 'X', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
+} else {
+  @b= (' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
+}
 run_games(1,@b);
 exit(0);

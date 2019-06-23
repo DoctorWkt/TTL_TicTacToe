@@ -279,3 +279,22 @@ pin on the flip-flop. It's fixed. Now a reset keeps all positions off,
 and the board seems to be playing a sensible game. Later, I'll fix up
 the LED resistors and put in a green tie LED as well as the red win LED.
 Then I'll do a video for Youtube. Success!
+
+## Sun 23 Jun 08:21:11 AEST 2019
+
+I was watching some of Robert Barusch's videos and he mentioned
+https://jlcpcb.com/, and they are much cheaper than breadboardkillers,
+so I've also ordered 5 PCBs from them. On hackaday.io, Ken Yap suggested
+a way to allow the board to move first. I've done it a slightly different
+way. Use another 8K of ROM to hold the moves and states for when the
+board moves in position 1 first. Use a switch and a pull-down resistor
+to set the ROM's A13 line to low for user-first, high for board-first.
+I've just modified gen_moves.pl and parse_moves.pl to create multiple
+moves and ROM files. I've loaded the new ROM into the existing Logisim
+version and it works fine. I might try it out on the breadboard version
+with an actual switch.
+
+I added the switch and resistor to the breadboard, also to the PCB design.
+Now 7 vias, sigh. There was a couple of small bugs in the Perl code which
+I fixed, and now the breadboard can play board first and shows the wins
+and ties. All good. Now to update the documentation.

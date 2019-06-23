@@ -119,10 +119,13 @@ sub allocate_statenums2 {
 #### MAIN PROGRAM ####
 
 # Enable debugging
-while (@ARGV > 0) {
+while (@ARGV > 2) {
   # Set debug mode
   if ($ARGV[0] eq "-d") { $debug++; shift(@ARGV); next; }
 }
+
+# Require user to name the output file
+die("Usage: $0 [-d] moves_file outputfile.rom\n") if (@ARGV!=2);
 
 # Open up the moves file which shows the board state after a user move,
 # the X move to make and the board result. Also shows a win or a tie.
@@ -134,7 +137,7 @@ while (@ARGV > 0) {
 #
 # Generated with: ./gen_moves.pl |sort | uniq > moves
 
-open( my $IN, "<", "moves" ) || die("Can't open moves: $!\n");
+open( my $IN, "<", $ARGV[0] ) || die("Can't read $ARGV[0]: $!\n");
 while (<$IN>) {
     chomp;
 
@@ -191,9 +194,15 @@ while (<$IN>) {
         my ( undef, $newxstate ) = o_and_x_states($newstate);
         $State{$ostate}{$xstate}{move}      = $xmove;
         $State{$ostate}{$xstate}{newxstate} = $newxstate;
-        $State{$ostate}{$newxstate}{move}      = $xmove;
-        $State{$ostate}{$newxstate}{newxstate} = $newxstate;
-        $Oset{$newxstate}{$ostate}          = 1;
+
+	# Watch out if the X move resulted in a tie, don't 
+	# change it to a new move
+	if (!(defined($State{$ostate}{$newxstate}{move}) &&
+	   ($State{$ostate}{$newxstate}{move} == 14))) {
+          $State{$ostate}{$newxstate}{move}      = $xmove;
+          $State{$ostate}{$newxstate}{newxstate} = $newxstate;
+          $Oset{$newxstate}{$ostate}          = 1;
+	}
         next;
     }
 }
@@ -260,7 +269,7 @@ foreach my $ostate ( keys(%State) ) {
 }
 
 # Write out the ROM
-open( my $OUT, ">", "ttt.rom" ) || die("Can't write to ttt.rom: $!\n");
+open( my $OUT, ">", $ARGV[1] ) || die("Can't write to $ARGV[1]: $!\n");
 print( $OUT "v2.0 raw\n" );
 for my $i ( 0 .. ( 2**13 - 1 ) ) {
     printf( $OUT "%x ", $ROM[$i] ? $ROM[$i] : 0 );

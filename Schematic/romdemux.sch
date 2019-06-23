@@ -144,8 +144,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 3250 6900 3350
 Connection ~ 6900 3350
-Text GLabel 1750 2550 0    60   Input ~ 0
-Lo
 Text GLabel 1750 2650 0    60   Input ~ 0
 Lo
 Text GLabel 1750 1250 0    60   Input ~ 0
@@ -167,13 +165,11 @@ User8
 Text GLabel 1750 2050 0    60   Input ~ 0
 User9
 Wire Wire Line
-	1750 2950 1950 2950
+	700  2950 1200 2950
 Wire Wire Line
 	1750 2850 1950 2850
 Wire Wire Line
 	1750 2650 1950 2650
-Wire Wire Line
-	1750 2550 1950 2550
 Wire Wire Line
 	1750 2450 1950 2450
 Wire Wire Line
@@ -621,7 +617,7 @@ Text GLabel 1750 2350 0    50   Input ~ 0
 Newstate2
 Text GLabel 1750 2450 0    50   Input ~ 0
 Newstate3
-Text GLabel 1750 2950 0    60   Input ~ 0
+Text GLabel 700  2950 0    60   Input ~ 0
 Lo
 Text GLabel 1750 3050 0    60   Input ~ 0
 Lo
@@ -657,4 +653,59 @@ Wire Wire Line
 	2350 3350 2350 3250
 Text GLabel 6800 3350 0    60   Input ~ 0
 Hi
+$Comp
+L Switch:SW_DPDT_x2 SW11
+U 1 1 5D0F1A64
+P 950 2450
+F 0 "SW11" H 950 2735 50  0000 C CNN
+F 1 "DPDTx2" H 950 2644 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 950 2450 50  0001 C CNN
+F 3 "~" H 950 2450 50  0001 C CNN
+	1    950  2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 2350
+Wire Wire Line
+	1150 2550 1200 2550
+$Comp
+L Device:R_Small R13
+U 1 1 5D0FFD2D
+P 1200 2750
+F 0 "R13" H 1141 2704 50  0000 R CNN
+F 1 "10K" H 1141 2795 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1200 2750 50  0001 C CNN
+F 3 "~" H 1200 2750 50  0001 C CNN
+	1    1200 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 2850 1200 2950
+Connection ~ 1200 2950
+Wire Wire Line
+	1200 2950 1950 2950
+Wire Wire Line
+	1200 2550 1200 2650
+Connection ~ 1200 2550
+Wire Wire Line
+	1200 2550 1950 2550
+Text GLabel 700  2450 0    60   Input ~ 0
+Hi
+Wire Wire Line
+	700  2450 750  2450
+$Comp
+L Switch:SW_DPDT_x2 SW11
+U 2 1 5D118BBD
+P 950 3700
+F 0 "SW11" H 950 3985 50  0000 C CNN
+F 1 "DPDTx2" H 950 3894 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 950 3700 50  0001 C CNN
+F 3 "~" H 950 3700 50  0001 C CNN
+	2    950  3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 3600
+NoConn ~ 1150 3800
+NoConn ~ 750  3700
+Text Notes 550  4150 0    50   ~ 0
+Switch 11 chooses between user moves first and\nboard moves first. Toggle the switch then press\nReset.
 $EndSCHEMATC

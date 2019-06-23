@@ -1,0 +1,463 @@
+OOXOX____ X move 7 win OOXOX_X__
+OOXXOOOXX tie
+OOXXOO_X_ X move 9 OOXXOO_XX
+OOXXOO__X X move 8 OOXXOO_XX
+OOXXXOOOX tie
+OOXXXOOXO tie
+OOXXXOO__ X move 8 OOXXXOOX_
+OOXXXO_O_ X move 7 win OOXXXOXO_
+OOXXXO__O X move 7 win OOXXXOX_O
+OOXXX_OO_ X move 6 win OOXXXXOO_
+OOXXX_O_O X move 6 win OOXXXXO_O
+OOXXX__OO X move 6 win OOXXXX_OO
+OOXX_OX_O X move 5 win OOXXXOX_O
+OOXX_O___ X move 5 OOXXXO___
+OOX_XO___ X move 7 win OOX_XOX__
+OOX_X_O__ X move 4 OOXXX_O__
+OOX_X__O_ X move 4 OOXXX__O_
+OOX_X___O X move 4 OOXXX___O
+OO_OX_X__ X move 3 win OOXOX_X__
+OO_XX_OOX X move 6 win OO_XXXOOX
+OO_XX_O__ X move 6 win OO_XXXO__
+OO_XX__O_ X move 3 OOXXX__O_
+OO__X____ X move 3 OOX_X____
+OXOOOXXOX tie
+OXOOXOXOX tie
+OXOOXOX__ X move 8 win OXOOXOXX_
+OXOOXO__X X move 8 win OXOOXO_XX
+OXOOXXXOO tie
+OXOOXX__O X move 8 win OXOOXX_XO
+OXOOX_XO_ X move 6 OXOOXXXO_
+OXOOX_X_O X move 8 win OXOOX_XXO
+OXOOX____ X move 8 win OXOOX__X_
+OXOXOOXOX tie
+OXOXXOOOX tie
+OXOXXOO__ X move 8 win OXOXXOOX_
+OXOXXO_O_ X move 9 OXOXXO_OX
+OXOXX_OO_ X move 6 win OXOXXXOO_
+OXOXX_O_O X move 6 win OXOXXXO_O
+OXOXX__OO X move 6 win OXOXXX_OO
+OXOX__OOX X move 5 OXOXX_OOX
+OXO_O_XOX X move 4 OXOXO_XOX
+OXO_XOO_X X move 8 win OXO_XOOXX
+OXO_XOXO_ X move 9 OXO_XOXOX
+OXO_XO_OX X move 4 OXOXXO_OX
+OXO_XO___ X move 8 win OXO_XO_X_
+OXO_XXO_O X move 4 win OXOXXXO_O
+OXO_XX_OO X move 4 win OXOXXX_OO
+OXO_X_OOX X move 4 OXOXX_OOX
+OXO_X_O__ X move 4 OXOXX_O__
+OXO_X_XOO X move 6 OXO_XXXOO
+OXO_X__O_ X move 4 OXOXX__O_
+OXO_X___O X move 6 OXO_XX__O
+OXO__OXOX X move 4 OXOX_OXOX
+OXO__XXOO X move 5 OXO_XXXOO
+OXO___XO_ X move 5 OXO_X_XO_
+OXXOXO__O X move 7 win OXXOXOX_O
+OXXO__XOO X move 5 win OXXOX_XOO
+OXXXOOOOX tie
+OXXXOO_O_ X move 9 OXXXOO_OX
+OXX_O_OOX X move 6 win OXX_OXOOX
+OXX_XOO_O X move 8 win OXX_XOOXO
+OXX_XO_OO X move 7 win OXX_XOXOO
+OXX__OXOO X move 5 win OXX_XOXOO
+OX_OOXXO_ X move 9 OX_OOXXOX
+OX_OO_XOX X move 6 OX_OOXXOX
+OX_OXOXO_ X move 3 win OXXOXOXO_
+OX_OXOX_O X move 3 win OXXOXOX_O
+OX_OXO___ X move 7 OX_OXOX__
+OX_OX_XOO X move 3 win OXXOX_XOO
+OX_OX___O X move 7 OX_OX_X_O
+OX_O__XO_ X move 5 OX_OX_XO_
+OX_XOOXO_ X move 9 OX_XOOXOX
+OX_XO_OOX X move 3 OXXXO_OOX
+OX_XXOOO_ X move 9 OX_XXOOOX
+OX_XXOO_O X move 8 win OX_XXOOXO
+OX_X_OOOX X move 3 OXXX_OOOX
+OX__OOXOX X move 4 OX_XOOXOX
+OX__O_XO_ X move 9 OX__O_XOX
+OX__XOOOX X move 4 OX_XXOOOX
+OX__XOO__ X move 8 win OX__XOOX_
+OX__XOXOO X move 3 win OXX_XOXOO
+OX__XO_O_ X move 7 OX__XOXO_
+OX__XO__O X move 3 OXX_XO__O
+OX__X_O_O X move 8 win OX__X_OXO
+OX__X__OO X move 7 OX__X_XOO
+OX___OXO_ X move 5 OX__XOXO_
+OX____OOX X move 4 OX_X__OOX
+OX____XOO X move 5 OX__X_XOO
+OX_____O_ X move 7 OX____XO_
+O_OOX_X__ X move 2 OXOOX_X__
+O_OXXO_OX X move 2 OXOXXO_OX
+O_OXX_OOX X move 6 win O_OXXXOOX
+O_OXX_O__ X move 2 OXOXX_O__
+O_OXX__O_ X move 6 win O_OXXX_O_
+O_O_XO__X X move 2 OXO_XO__X
+O_O_XXXOO X move 4 win O_OXXXXOO
+O_O_XX__O X move 2 OXO_XX__O
+O_O_X____ X move 2 OXO_X____
+O_XOXO___ X move 7 win O_XOXOX__
+O_XXOOO_X X move 2 OXXXOOO_X
+O_XXOO_OX X move 2 OXXXOO_OX
+O_XXOO___ X move 9 O_XXOO__X
+O_XXXOOO_ X move 9 O_XXXOOOX
+O_XXXOO_O X move 8 O_XXXOOXO
+O_XXXO_OO X move 7 win O_XXXOXOO
+O_XX_OO__ X move 5 O_XXXOO__
+O_XX_O_O_ X move 5 O_XXXO_O_
+O_XX_O__O X move 5 O_XXXO__O
+O_X_XOOXO X move 2 win OXX_XOOXO
+O_X_XO__O X move 2 OXX_XO__O
+O_X__O___ X move 4 O_XX_O___
+O__OXOX__ X move 2 OX_OXOX__
+O__OX_XO_ X move 3 win O_XOX_XO_
+O__OX_X_O X move 2 OX_OX_X_O
+O__OX____ X move 7 O__OX_X__
+O__XXOOOX X move 2 OX_XXOOOX
+O__XXOO__ X move 2 OX_XXOO__
+O__XXO_O_ X move 3 O_XXXO_O_
+O__XX_OO_ X move 6 win O__XXXOO_
+O__XX_O_O X move 6 win O__XXXO_O
+O__XX__OO X move 6 win O__XXX_OO
+O___XO___ X move 2 OX__XO___
+O___X_OOX X move 4 O__XX_OOX
+O___X_OXO X move 2 win OX__X_OXO
+O___X_O__ X move 4 O__XX_O__
+O___X_XOO X move 3 win O_X_X_XOO
+O___X__O_ X move 4 O__XX__O_
+O___X___O X move 2 OX__X___O
+O________ X move 5 O___X____
+XOOOOXXXO tie
+XOOOOXX__ X move 8 XOOOOXXX_
+XOOOOX_X_ X move 7 XOOOOXXX_
+XOOOO_XX_ X move 9 win XOOOO_XXX
+XOOOXOX__ X move 9 win XOOOXOX_X
+XOOOXXOXO tie
+XOOOXXXOO tie
+XOOOXX__O X move 7 XOOOXXX_O
+XOOOX____ X move 9 win XOOOX___X
+XOOXOO_X_ X move 7 win XOOXOOXX_
+XOOXOX__O X move 7 win XOOXOXX_O
+XOOXO____ X move 7 win XOOXO_X__
+XOOXXOO__ X move 9 win XOOXXOO_X
+XOOXXO_O_ X move 7 win XOOXXOXO_
+XOOXX_OO_ X move 6 win XOOXXXOO_
+XOOXX_O_O X move 6 win XOOXXXO_O
+XOOXX__OO X move 6 win XOOXXX_OO
+XOOX_O___ X move 7 win XOOX_OX__
+XOOX_XO_O X move 5 win XOOXXXO_O
+XOOX_X_OO X move 5 win XOOXXX_OO
+XOOX__O__ X move 5 XOOXX_O__
+XOOX___O_ X move 5 XOOXX__O_
+XOOX____O X move 6 XOOX_X__O
+XOO_OOXX_ X move 4 win XOOXOOXX_
+XOO_O_XXO X move 4 win XOOXO_XXO
+XOO_O_X__ X move 4 win XOOXO_X__
+XOO_O__X_ X move 7 XOO_O_XX_
+XOO_XO___ X move 9 win XOO_XO__X
+XOO_XXO_O X move 4 win XOOXXXO_O
+XOO_XX_OO X move 4 win XOOXXX_OO
+XOO_X_OXO X move 6 XOO_XXOXO
+XOO_X_O__ X move 4 XOOXX_O__
+XOO_X_XOO X move 4 win XOOXX_XOO
+XOO_X__O_ X move 4 XOOXX__O_
+XOO_X___O X move 6 XOO_XX__O
+XOO__OX__ X move 4 win XOOX_OX__
+XOO______ X move 4 XOOX_____
+XOXOOXOXO tie
+XOXOOXO__ X move 9 win XOXOOXO_X
+XOXOO_OX_ X move 6 XOXOOXOX_
+XOXOO__XO X move 6 XOXOOX_XO
+XOXOXOOXO tie
+XOXOXOO__ X move 9 win XOXOXOO_X
+XOXOXO_O_ X move 7 win XOXOXOXO_
+XOXOXO__O X move 7 win XOXOXOX_O
+XOXOX_OO_ X move 9 win XOXOX_OOX
+XOXOX_O_O X move 8 XOXOX_OXO
+XOXOX__OO X move 7 win XOXOX_XOO
+XOXO_OX_O X move 5 win XOXOXOX_O
+XOXO___O_ X move 5 XOXOX__O_
+XOXO____O X move 5 XOXOX___O
+XOXXOOOXO tie
+XOXXOOO__ X move 8 XOXXOOOX_
+XOXXOO__O X move 7 win XOXXOOX_O
+XOX_OOOX_ X move 4 XOXXOOOX_
+XOX_OOX_O X move 4 win XOXXOOX_O
+XOX_OO_XO X move 4 XOXXOO_XO
+XOX_O_OXO X move 4 XOXXO_OXO
+XOX_O_O__ X move 8 XOX_O_OX_
+XOX_O___O X move 8 XOX_O__XO
+XOX_XOOO_ X move 9 win XOX_XOOOX
+XOX_XOO_O X move 8 XOX_XOOXO
+XOX_XO_OO X move 7 win XOX_XOXOO
+XOX__OO__ X move 5 XOX_XOO__
+XOX__OXOO X move 4 win XOXX_OXOO
+XOX__O_O_ X move 5 XOX_XO_O_
+XOX__O__O X move 7 XOX__OX_O
+XO_OOXOX_ X move 3 XOXOOXOX_
+XO_OOX_XO X move 3 XOXOOX_XO
+XO_OOX___ X move 8 XO_OOX_X_
+XO_OO__X_ X move 6 XO_OOX_X_
+XO_OXOXO_ X move 3 win XOXOXOXO_
+XO_OXOX_O X move 3 win XOXOXOX_O
+XO_OXO___ X move 3 XOXOXO___
+XO_OX_OXO X move 3 XOXOX_OXO
+XO_OX_O__ X move 9 win XO_OX_O_X
+XO_OX_XOO X move 3 win XOXOX_XOO
+XO_OX__O_ X move 3 XOXOX__O_
+XO_OX___O X move 3 XOXOX___O
+XO_O_OX__ X move 5 XO_OXOX__
+XO_O_____ X move 5 XO_OX____
+XO_XOOOX_ X move 3 XOXXOOOX_
+XO_XOO_XO X move 7 win XO_XOOXXO
+XO_XOO___ X move 7 win XO_XOOX__
+XO__OOX__ X move 4 win XO_XOOX__
+XO__OO_X_ X move 4 XO_XOO_X_
+XO__O_OX_ X move 3 XOX_O_OX_
+XO__O__XO X move 3 XOX_O__XO
+XO__O____ X move 8 XO__O__X_
+XO__XOOXO X move 3 XOX_XOOXO
+XO__XOO__ X move 9 win XO__XOO_X
+XO__XOXOO X move 3 win XOX_XOXOO
+XO__XO_O_ X move 3 XOX_XO_O_
+XO__XO__O X move 3 XOX_XO__O
+XO__X_OO_ X move 9 win XO__X_OOX
+XO__X_O_O X move 8 XO__X_OXO
+XO__X__OO X move 7 XO__X_XOO
+XO___OXO_ X move 4 win XO_X_OXO_
+XO___OX_O X move 3 XOX__OX_O
+XO___O___ X move 7 XO___OX__
+XO____O__ X move 5 XO__X_O__
+XO_____O_ X move 5 XO__X__O_
+XO______O X move 5 XO__X___O
+XXOOOXXOO tie
+XXOOOX_O_ X move 7 XXOOOXXO_
+XXOOOX__O X move 7 XXOOOXX_O
+XXOOO_XO_ X move 6 XXOOOXXO_
+XXOOXOO__ X move 8 win XXOOXOOX_
+XXOOXO_O_ X move 9 win XXOOXO_OX
+XXOOX_OO_ X move 9 win XXOOX_OOX
+XXOOX_O_O X move 8 win XXOOX_OXO
+XXOO__OOX X move 5 win XXOOX_OOX
+XXOO__O__ X move 5 XXOOX_O__
+XXOXOO_O_ X move 7 win XXOXOOXO_
+XXO_OOXO_ X move 4 win XXOXOOXO_
+XXO_O_XOO X move 4 win XXOXO_XOO
+XXO_O__O_ X move 7 XXO_O_XO_
+XXO__OOOX X move 5 win XXO_XOOOX
+XX_OOXOO_ X move 3 win XXXOOXOO_
+XX_OOXO_O X move 3 win XXXOOXO_O
+XX_OOX_OO X move 3 win XXXOOX_OO
+XX_OO_OOX X move 3 win XXXOO_OOX
+XX_OO_O__ X move 3 win XXXOO_O__
+XX_OO_XOO X move 3 win XXXOO_XOO
+XX_OO__O_ X move 3 win XXXOO__O_
+XX_OXOOO_ X move 3 win XXXOXOOO_
+XX_OXOO_O X move 3 win XXXOXOO_O
+XX_OXO_OO X move 3 win XXXOXO_OO
+XX_O_OOOX X move 3 win XXXO_OOOX
+XX_O_OO__ X move 3 win XXXO_OO__
+XX_O__OO_ X move 3 win XXXO__OO_
+XX_O__O_O X move 3 win XXXO__O_O
+XX_XOOOO_ X move 3 win XXXXOOOO_
+XX_XOO_OO X move 3 win XXXXOO_OO
+XX__OOOOX X move 3 win XXX_OOOOX
+XX__OOXOO X move 3 win XXX_OOXOO
+XX__OO_O_ X move 3 win XXX_OO_O_
+XX__O_OO_ X move 3 win XXX_O_OO_
+XX__O__OO X move 3 win XXX_O__OO
+X_OOOXXO_ X move 2 XXOOOXXO_
+X_OOOXX_O X move 2 XXOOOXX_O
+X_OOOX___ X move 7 X_OOOXX__
+X_OOO_X__ X move 6 X_OOOXX__
+X_OOXO___ X move 9 win X_OOXO__X
+X_OOXXO_O X move 8 X_OOXXOXO
+X_OOXX_OO X move 7 X_OOXXXOO
+X_OOX_OXO X move 2 win XXOOX_OXO
+X_OOX_O__ X move 2 XXOOX_O__
+X_OOX_XOO X move 6 X_OOXXXOO
+X_OOX__O_ X move 9 win X_OOX__OX
+X_OOX___O X move 6 X_OOXX__O
+X_OO_____ X move 5 X_OOX____
+X_OXOO___ X move 7 win X_OXOOX__
+X_O_OOX__ X move 4 win X_OXOOX__
+X_O_O_XO_ X move 4 win X_OXO_XO_
+X_O_O_X_O X move 4 win X_OXO_X_O
+X_O_O____ X move 7 X_O_O_X__
+X_XOOXOO_ X move 2 win XXXOOXOO_
+X_XOOXO_O X move 2 win XXXOOXO_O
+X_XOO_O__ X move 2 win XXXOO_O__
+X_XOO__O_ X move 2 win XXXOO__O_
+X_XOO___O X move 2 win XXXOO___O
+X_XOXOOO_ X move 2 win XXXOXOOO_
+X_XOXOO_O X move 2 win XXXOXOO_O
+X_XOXO_OO X move 2 win XXXOXO_OO
+X_XO_OO__ X move 2 win XXXO_OO__
+X_XO_O_O_ X move 2 win XXXO_O_O_
+X_XO_O__O X move 2 win XXXO_O__O
+X_XO__OO_ X move 2 win XXXO__OO_
+X_XO__O_O X move 2 win XXXO__O_O
+X_XO___OO X move 2 win XXXO___OO
+X_XXOOOO_ X move 2 win XXXXOOOO_
+X_XXOOO_O X move 2 win XXXXOOO_O
+X_XXOO_OO X move 2 win XXXXOO_OO
+X_X_OOO__ X move 2 win XXX_OOO__
+X_X_OO_O_ X move 2 win XXX_OO_O_
+X_X_OO__O X move 2 win XXX_OO__O
+X_X_O_OO_ X move 2 win XXX_O_OO_
+X_X_O_O_O X move 2 win XXX_O_O_O
+X_X_O__OO X move 2 win XXX_O__OO
+X_X__OOO_ X move 2 win XXX__OOO_
+X_X__OO_O X move 2 win XXX__OO_O
+X_X__O_OO X move 2 win XXX__O_OO
+X__OOXO__ X move 3 X_XOOXO__
+X__OOX_O_ X move 2 XX_OOX_O_
+X__OOX__O X move 2 XX_OOX__O
+X__OO____ X move 6 X__OOX___
+X__OXOOXO X move 2 win XX_OXOOXO
+X__OXOO__ X move 2 XX_OXOO__
+X__OXOXOO X move 3 win X_XOXOXOO
+X__OXO_O_ X move 2 XX_OXO_O_
+X__OXO__O X move 3 X_XOXO__O
+X__OX_OO_ X move 9 win X__OX_OOX
+X__OX_O_O X move 8 X__OX_OXO
+X__OX__OO X move 7 X__OX_XOO
+X__O_O___ X move 5 X__OXO___
+X__O__O__ X move 2 XX_O__O__
+X__O___O_ X move 3 X_XO___O_
+X__O____O X move 3 X_XO____O
+X__XOOO__ X move 3 X_XXOOO__
+X__XOO_O_ X move 2 XX_XOO_O_
+X__XOO__O X move 3 X_XXOO__O
+X___OO___ X move 4 X__XOO___
+X___O_O__ X move 3 X_X_O_O__
+X___O__O_ X move 2 XX__O__O_
+X___O___O X move 3 X_X_O___O
+_OOXXO_OX X move 1 win XOOXXO_OX
+_OOXX__O_ X move 1 XOOXX__O_
+_OO_XO__X X move 1 win XOO_XO__X
+_OO_XXXOO X move 4 win _OOXXXXOO
+_OO_XX__O X move 4 win _OOXXX__O
+_OO_X____ X move 1 XOO_X____
+_OXOXO___ X move 1 XOXOXO___
+_OXXOOOX_ X move 1 XOXXOOOX_
+_OXXOOX_O X move 1 win XOXXOOX_O
+_OXXOO_XO X move 1 XOXXOO_XO
+_OXXOO___ X move 8 _OXXOO_X_
+_OXXXOOO_ X move 9 _OXXXOOOX
+_OXXXOO_O X move 8 _OXXXOOXO
+_OXXXO_OO X move 7 win _OXXXOXOO
+_OXX_OO__ X move 5 _OXXXOO__
+_OXX_OXOO X move 1 win XOXX_OXOO
+_OXX_O_O_ X move 5 _OXXXO_O_
+_OXX_O__O X move 7 _OXX_OX_O
+_OX_XOOXO X move 1 XOX_XOOXO
+_OX_XO__O X move 7 win _OX_XOX_O
+_OX__O___ X move 4 _OXX_O___
+_O__X_OOX X move 1 win XO__X_OOX
+_O__X_OXO X move 1 XO__X_OXO
+_O__X_O__ X move 1 XO__X_O__
+_O__X_XOO X move 1 XO__X_XOO
+_O__X___O X move 1 XO__X___O
+_O_______ X move 1 XO_______
+_XOOOXXO_ X move 1 XXOOOXXO_
+_XOOXOXO_ X move 9 _XOOXOXOX
+_XOOX_OOX X move 1 win XXOOX_OOX
+_XOOX_O__ X move 1 XXOOX_O__
+_XOOX_XOO X move 6 _XOOXXXOO
+_XOO_OXOX X move 5 _XOOXOXOX
+_XOO_XXOO X move 1 XXOO_XXOO
+_XOO__XO_ X move 5 _XOOX_XO_
+_XOXOOXO_ X move 1 win XXOXOOXO_
+_XO_OOXOX X move 4 _XOXOOXOX
+_XO_OXXOO X move 1 XXO_OXXOO
+_XO_O_XO_ X move 1 XXO_O_XO_
+_XO_XOOOX X move 1 win XXO_XOOOX
+_XO_XOO__ X move 8 win _XO_XOOX_
+_XO_X_OO_ X move 9 _XO_X_OOX
+_XO_X_O_O X move 8 win _XO_X_OXO
+_XO__OXO_ X move 9 _XO__OXOX
+_XO___OOX X move 5 _XO_X_OOX
+_XO___XOO X move 6 _XO__XXOO
+_XO____O_ X move 7 _XO___XO_
+_XXOO_OOX X move 1 win XXXOO_OOX
+_XXOO_XOO X move 1 win XXXOO_XOO
+_XXO_OXOO X move 1 win XXXO_OXOO
+_XXXOOOO_ X move 1 win XXXXOOOO_
+_XXXOO_OO X move 1 win XXXXOO_OO
+_XX_OOOOX X move 1 win XXX_OOOOX
+_XX_OOXOO X move 1 win XXX_OOXOO
+_X_OOXXOO X move 1 XX_OOXXOO
+_X_OO_XO_ X move 6 _X_OOXXO_
+_X_OXOOOX X move 1 win XX_OXOOOX
+_X_OXOO__ X move 1 XX_OXOO__
+_X_OXOXOO X move 3 win _XXOXOXOO
+_X_O_OXO_ X move 5 _X_OXOXO_
+_X_O__OOX X move 1 XX_O__OOX
+_X_O__XOO X move 3 _XXO__XOO
+_X_O___O_ X move 7 _X_O__XO_
+_X_XOOXOO X move 1 win XX_XOOXOO
+_X__OOXO_ X move 4 _X_XOOXO_
+_X__O_OOX X move 3 _XX_O_OOX
+_X__O_XOO X move 1 XX__O_XOO
+_X__O__O_ X move 1 XX__O__O_
+_X__XOOO_ X move 9 _X__XOOOX
+_X__XOO_O X move 8 win _X__XOOXO
+_X___OOOX X move 1 XX___OOOX
+_X___OXOO X move 3 _XX__OXOO
+_X___O_O_ X move 7 _X___OXO_
+_X____OO_ X move 9 _X____OOX
+_X_____OO X move 7 _X____XOO
+__OOXO__X X move 1 win X_OOXO__X
+__OOXXXOO X move 1 X_OOXXXOO
+__OOXX__O X move 1 X_OOXX__O
+__OOX____ X move 1 X_OOX____
+__OXXOOOX X move 1 win X_OXXOOOX
+__OXXO_O_ X move 9 __OXXO_OX
+__OXX_OO_ X move 6 win __OXXXOO_
+__OXX__OO X move 6 win __OXXX_OO
+__O_XOO_X X move 1 win X_O_XOO_X
+__O_XO_OX X move 1 win X_O_XO_OX
+__O_XO___ X move 9 __O_XO__X
+__O_XXO_O X move 4 win __OXXXO_O
+__O_XX_OO X move 4 win __OXXX_OO
+__O_X_OOX X move 1 win X_O_X_OOX
+__O_X_OXO X move 2 win _XO_X_OXO
+__O_X_O__ X move 2 _XO_X_O__
+__O_X_XOO X move 6 __O_XXXOO
+__O_X__O_ X move 4 __OXX__O_
+__O_X___O X move 6 __O_XX__O
+__O______ X move 5 __O_X____
+__XOXOOXO X move 2 win _XXOXOOXO
+__XOXOO__ X move 1 X_XOXOO__
+__XOXO_O_ X move 1 X_XOXO_O_
+__XOXO__O X move 1 X_XOXO__O
+__XO_O___ X move 5 __XOXO___
+__XXOOO__ X move 1 X_XXOOO__
+__XXOO_O_ X move 2 _XXXOO_O_
+__XXOO__O X move 1 X_XXOO__O
+__X_OO___ X move 4 __XXOO___
+__X_XOO_O X move 8 __X_XOOXO
+__X_XO_OO X move 7 win __X_XOXOO
+__X__OO__ X move 1 X_X__OO__
+__X__O_O_ X move 1 X_X__O_O_
+__X__O__O X move 1 X_X__O__O
+___OX_OOX X move 1 win X__OX_OOX
+___OX_OXO X move 2 win _X_OX_OXO
+___OX_O__ X move 1 X__OX_O__
+___OX_XOO X move 3 win __XOX_XOO
+___OX___O X move 1 X__OX___O
+___O_____ X move 1 X__O_____
+____O____ X move 1 X___O____
+____XOOOX X move 1 win X___XOOOX
+____XOOXO X move 2 win _X__XOOXO
+____XOO__ X move 2 _X__XOO__
+____XOXOO X move 3 win __X_XOXOO
+____XO__O X move 3 __X_XO__O
+____X_OO_ X move 9 ____X_OOX
+____X_O_O X move 8 ____X_OXO
+____X__OO X move 7 ____X_XOO
+_____O___ X move 3 __X__O___
+______O__ X move 5 ____X_O__
+_______O_ X move 2 _X_____O_
+________O X move 5 ____X___O

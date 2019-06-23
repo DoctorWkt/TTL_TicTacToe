@@ -77,3 +77,8 @@ For the real circuit, I will use these devices:
 74HC107         Nine dual JK flip-flops with reset; negative-edge trigger.
 555             A timer running at 100Hz or so.
 ```
+Finally, there is a switch connected to address line 13 of the 28C256 EEPROM.
+This allows the user to move first, or to let the board move first. What is
+happening here is that the switch chooses one bank of 8K for the moves and
+game state when the user moves first. By toggling the switch, a second
+bank of 8K moves are selected for when the board moves first.
