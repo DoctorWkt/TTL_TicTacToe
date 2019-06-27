@@ -304,14 +304,14 @@ and ties. All good. Now to update the documentation.
 The PCBs that I ordered from JLCPCB arrived yesterday. I was able to
 spend a couple of hours taking the components from the breadboard and
 solder them to the PCB. There were no wiring problems. The only main
-problem was my bi-colour LEDs are much larger than the two separate LEDs,
-and the actually bump into the pushbuttons. Also, the buttons for one
+problem was that my bi-colour LEDs are much larger than the two separate LEDs;
+thaye actually bump into the pushbuttons. Also, the buttons for one
 row are closer to the LEDs for the row below. If I redesigned the board,
 I would move the buttons to be right next to the LEDs, and I'd make room
 for 10mm bi-colour LEDs.
 
-Apart from this, it all went well. The little micro USB daughter board that
-I had worked fine to supply power, and once I got all the chips on the thing
-worked as expected. I haven't done the user/board first switch yet, I'll do
-that soon. So this is the second PCB that I've ordered, and I'm still
+Apart from this, it all went well. The little micro USB daughter board 
+works fine to supply power, and the board worked once I got all the chips on it.
+I haven't done the user/board first switch yet; I'll do
+that soon. So this is the second PCB that I've ordered and I'm still
 surprised that I can design a PCb and it just works :-)
