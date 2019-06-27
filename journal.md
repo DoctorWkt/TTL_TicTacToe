@@ -298,3 +298,20 @@ I added the switch and resistor to the breadboard, also to the PCB design.
 Now 7 vias, sigh. There was a couple of small bugs in the Perl code which
 I fixed, and now the breadboard can play board first and shows the wins
 and ties. All good. Now to update the documentation.
+
+## Thu 27 Jun 10:12:59 AEST 2019
+
+The PCBs that I ordered from JLCPCB arrived yesterday. I was able to
+spend a couple of hours taking the components from the breadboard and
+solder them to the PCB. There were no wiring problems. The only main
+problem was my bi-colour LEDs are much larger than the two separate LEDs,
+and the actually bump into the pushbuttons. Also, the buttons for one
+row are closer to the LEDs for the row below. If I redesigned the board,
+I would move the buttons to be right next to the LEDs, and I'd make room
+for 10mm bi-colour LEDs.
+
+Apart from this, it all went well. The little micro USB daughter board that
+I had worked fine to supply power, and once I got all the chips on the thing
+worked as expected. I haven't done the user/board first switch yet, I'll do
+that soon. So this is the second PCB that I've ordered, and I'm still
+surprised that I can design a PCb and it just works :-)
