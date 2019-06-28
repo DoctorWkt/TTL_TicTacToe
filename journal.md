@@ -315,3 +315,13 @@ works fine to supply power, and the board worked once I got all the chips on it.
 I haven't done the user/board first switch yet; I'll do
 that soon. So this is the second PCB that I've ordered and I'm still
 surprised that I can design a PCB and it just works :-)
+
+## Sat 29 Jun 09:16:11 AEST 2019
+
+I got time to add the switch and resistor for the user/board first selection.
+Here's a photo of the final PCB:
+
+![](Figs/pcb2.jpg)
+
+And that's the end of the project. Not bad for nine flip-flops, a 16Kx8 ROM,
+a register and a 4:16 demux!
