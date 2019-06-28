@@ -72,7 +72,7 @@ In the _Schematic/_ folder you will find a
  + one 555 to generate the clock signal
  + various LEDs to show the moves, and other sundry components.
 
-I've also designed a [PCB](Figs/pcb1.jpg) to hold all the components.
+I've also designed a [PCB](Figs/pcb2.jpg) to hold all the components.
 The design has separate LEDs for user and board moves, but I've chosen to use
 bi-colour LEDs so that there is a single physical LED for each board position:
 green for the user, red for the board, off when empty.
