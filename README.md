@@ -12,7 +12,8 @@ register both the human and the board's moves. The board has a register
 which holds the current state of the board's moves. The board state and
 the user's moves are combined to access a ROM to look up the next board move
 and any tie or win result.
-An [overview of the design](design_notes.md) is available.
+An [overview of the design](design_notes.md) is available. Here's
+a [video](https://www.youtube.com/watch?v=WPPjL46z-Ag) of the board in action.
 
 There are several versions of the design.
 

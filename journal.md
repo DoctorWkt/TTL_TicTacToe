@@ -277,8 +277,9 @@ I've just checked that both the win and tie LEDs light up with the
 I found it. The user move wire for position 5 was wired to the wrong
 pin on the flip-flop. It's fixed. Now a reset keeps all positions off,
 and the board seems to be playing a sensible game. Later, I'll fix up
-the LED resistors and put in a green tie LED as well as the red win LED.
-Then I'll do a video for Youtube. Success!
+the LED resistors and put in a green tie LED as well as the red win LED. Then
+I'll do a [video for Youtube](https://www.youtube.com/watch?v=WPPjL46z-Ag).
+Success!
 
 ## Sun 23 Jun 08:21:11 AEST 2019
 
